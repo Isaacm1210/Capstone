@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Gabarito", cursive;
+}
+
+body{
+  min-width: 500px;
+}
+.content {
+  min-width: 500px;
+}
+.app {
+  display: flex; 
+  position: absolute;
+}
+/* .content {
+  min-width: 500px;
+} */
+
+::-webkitscrollbar {
+  width: 10px;
+}
+
+/* Track */
+::webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background-color: #555;
+}
+
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.pages{
+  width: 100%;
+  position: relative;
+  margin-top: 68.5px;
+}
+
+.topBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99;
+}
+
+
