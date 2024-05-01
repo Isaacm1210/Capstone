@@ -23,7 +23,3 @@ There are two types of users for this application:
    - Can view but not edit full schedule
 <br/>
 
-### Data Organiation
-
-
-Users are able to 
